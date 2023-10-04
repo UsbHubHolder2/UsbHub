@@ -50,7 +50,7 @@ if game.PlaceId == 13864667823 then
                      print("changed walkspeed")
 		end,
 	})
-local SpeedButton = Tab:CreateButton({
+local SpeedButton = playerTab:CreateButton({
    Name = "Change Walk Speed",
    Callback = function()
    LocalPlayer.Character.Humanoid.WalkSpeed = SliderSpeed["CurrentValue"]
