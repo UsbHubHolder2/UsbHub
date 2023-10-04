@@ -29,8 +29,8 @@ if game.PlaceId == 13864667823 then
 })
 else
     game.StarterGui:SetCore("SendNotification", {
-      Title = "Game not available",
-      Text = "This game is not currently in the hub, if this is a error, check if you are in the right game place!",
+      Title = "Game not available in hub",
+      Text = "Try to check if this is the right game place!",
       Icon = "",
       Duration = 6.5
     })
