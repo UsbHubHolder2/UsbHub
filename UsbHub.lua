@@ -18,13 +18,13 @@ if game.PlaceId == 13864667823 then
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "To get in the hub and get access to more than"..tostring(gamesAmount).." games, you need a key.",
-      Subtitle = "Key System",
+      Title = "Insert key!",
+      Subtitle = "To open one of the best hubs, you need to insert a key.",
       Note = "No method of obtaining the key is provided.",
       FileName = "Key_v0.1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {https://pastebin.com/raw/w8wmH6ZU} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 else
