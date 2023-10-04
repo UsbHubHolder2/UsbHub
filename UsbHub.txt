@@ -1,19 +1,20 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 if game.PlaceId == 13864667823 then
-    
+
 else
-    Rayfield:Notify({
-   Title = "USB Hub does not work in this game!",
-   Content = "USB Hub is not in this game, if this is a error, check if you are in the right place.",
-   Duration = 6.5,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-        
-      end
-   },
-},
-})
-end
+	Rayfield:Notify({
+		Title = "USB Hub does not work in this game!",
+		Content = "USB Hub does not work in this game, if this is a error, check if this is the right game place!",
+		Duration = 6.5,
+		Image = 4483362458,
+		Actions = { -- Notification Buttons
+			Ignore = {
+				Name = "Okay!",
+				Callback = function()
+					--print("The user tapped Okay!")
+				end
+			},
+		},
+	})
 end
